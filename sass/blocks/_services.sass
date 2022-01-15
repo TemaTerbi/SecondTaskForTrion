@@ -1,0 +1,79 @@
+.services
+    &__tittle
+        display: flex
+        justify-content: center
+        color: $white
+        font-size: 54px
+        font-weight: 400
+        margin-top: 50px
+        margin-bottom: 70px
+    &__row
+        display: flex
+        justify-content: space-between
+        margin-bottom: 50px
+
+
+
+.card
+    z-index: 2
+    width: 520px
+    height: 202px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    &_big
+        z-index: 2
+        width: 1120px
+        height: 202px
+        display: flex
+        flex-direction: column
+    &__header
+        z-index: 2
+        padding: 25px
+    &__footer
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        padding: 25px
+        z-index: 2
+    &__name
+        color: $white
+        font-size: 24px
+        &_left
+            text-align: right
+            color: $white
+            font-size: 24px
+            display: flex
+            justify-content: flex-end
+    &__img
+        position: absolute
+        width: 520px
+        height: 202px 
+        object-fit: cover
+        &_big
+            position: absolute
+            width: 1120px
+            height: 202px 
+            object-fit: cover
+
+.btn
+    &__button
+        transform: skew(-15deg)
+        padding: 15px 43px 15px 43px
+
+.shadow
+    &_big
+        z-index: 1
+        position: absolute
+        background-color: $shadow
+        width: 1120px
+        height: 202px
+        opacity: 0.8 
+    &__grey
+        z-index: 1
+        position: absolute
+        background-color: $shadow
+        width: 520px
+        height: 202px
+        opacity: 0.8    
+        
