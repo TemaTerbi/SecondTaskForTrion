@@ -32,15 +32,24 @@
     &__vk
         cursor: pointer
         fill: red
+    &__telegram
+        cursor: pointer
+    &__inst
+        cursor: pointer
         
 
 
 .phone
+    display: flex
+    flex-direction: column
     color: $white
     margin-bottom: 57px
     font-size: 24px
     &__item
         margin-bottom: 21px
+        &:hover
+            color: $primary
+            transition: 0.3s
 
 .license
     color: $white
